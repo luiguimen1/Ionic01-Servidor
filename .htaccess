@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^FormuCrea.php$ view/lunes.php
+RewriteRule ^crPersona$ ctrl/CTPersona/CtCraPer.php
+RewriteRule ^EliPersona.php$ CTRL/CTpersona/CrElimPerso.php
+RewriteRule ^ModiPer.php$ CTRL/CTpersona/CtModPer.php
+RewriteRule ^busXID.php$ CTRL/CTpersona/CtBuscarXiD.php
+RewriteRule ^ListPersona.php$ CTRL/CTpersona/CtListPersona.php
+RewriteRule ^llegada.php$ ctrl/CTPersona/CtCraPer.php
